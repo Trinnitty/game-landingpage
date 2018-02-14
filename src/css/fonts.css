@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'BungeeInline-Regular';
+  src: 
+    url('../font/Bungee_Inline/BungeeInline-Regular.ttf') format('truetype');
+   /* url('../fonts/Bello-pro/Bello-Pro.woff') format('woff'),
+    url('../fonts/Bello-pro/Bello-Pro.ttf') format('truetype');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinSketch-Bold';
+  src: 
+    url('../font/Cabin_Sketch/CabinSketch-Bold.ttf') format('truetype');
+    /*url('../fonts/Aemperial/a_empirial.woff') format('woff'),
+    url('../fonts/Aemperial/a_empirial.ttf') format('truetype');*/
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrederickatheGreat-Regular';
+  src: 
+  /*  url('../fonts/Royal/Luxury Royale JF Regular.eot') format('embedded-opentype'),
+    url('../fonts/Royal/Luxury Royale JF Regular.woff') format('woff'),*/
+    url('../font/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Frijole-Regular';
+  src: 
+    /*url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-HvCn.otf') format('embedded-opentype'),
+    url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-HvCn.woff2') format('woff2'),*/
+    url('../font/Frijole/Frijole-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Libre_Barcode_39_Extended_Text';
+  src: 
+    /*url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-LtCn.otf') format('embedded-opentype'),
+    url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-LtCn.woff2') format('woff'),*/
+    url('../font/Libre_Barcode_39_Extended_Text/LibreBarcode39ExtendedText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LibreBarcode39Text-Regular';
+  src: 
+   /* url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-Th.otf') format('embedded-opentype'),
+    url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-Th.ttf') format('truetype'),*/
+    url('../font/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Love_Ya_Like_A_Sister';
+  src: 
+   /* url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-BlkCn.otf') format('embedded-opentype'),
+    url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-BlkCn.woff2') format('woff2'),*/
+    url('../font/Love_Ya_Like_A_Sister/LoveYaLikeASister.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monoton-Regular';
+  src: 
+   /* url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-ThCn.otf') format('embedded-opentype'),
+    url('../fonts/helvetica-neue-lt-std/Helvetica Neue LT Std/HelveticaNeueLTStd-ThCn.woff2') format('woff2'),*/
+    url('../font/Monoton/Monoton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,386 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.main-brown-color{
+	color: #652711;
+}
+/*create common class to set display flex and centry to screen*/
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+html{
+	font-size: 10px;
+	width: 100%;
+}
+body{
+	min-height: 100vh;
+	color: #fff;
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 6rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #000;
+
+}
+.header-top{
+	width: 100%;
+	height: 6rem;
+	background-color: rgba(76, 77, 79, .25);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	-ms-align-items: center;
+	align-items: center;
+	position: fixed;
+	padding-right: 2rem;
+}
+.header-top>div{
+	font-size: 2rem;
+	text-transform: uppercase;		
+	font-family: 'BungeeInline-Regular';
+	margin-right: 3rem;
+}
+main{
+	width: 100%;
+	height: auto;
+}
+.wrapper{
+	width: 120rem;
+	height: 100%;
+}
+.main-top{
+	width: 100%;
+	height:calc(100vh - 6rem);
+	background-image: url(../image/1462392474_pia14293-amended1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+main .main-top-descr{
+	font-size: 12rem;
+	font-family: 'CabinSketch-Bold';
+}
+main .main-description{
+	width: 100%;
+	height: 50rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+main .main-description .wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: #464F60;
+}
+main .main-description-bottom{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+main .descr-technology, 
+main .descr-customize,
+main .descr-support {
+	width: 30%;
+	height: 30rem;
+	font-size: 2rem;
+	margin: 2rem;
+	margin-top: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	overflow: hidden;
+}
+main .descr-technology div:nth-child(1), 
+main .descr-customize div:nth-child(1),
+main .descr-support div:nth-child(1){
+	text-align: center;
+	color: #754A3B;
+	font-size: 2rem;
+}
+main .descr-technology  .fa, 
+main .descr-customize  .fa,
+main .descr-support .fa{
+	color: #652711;
+	font-size: 8rem;
+	margin: 3rem;
+}
+main .descr-technology div:nth-child(2), 
+main .descr-customize div:nth-child(2),
+main .descr-support div:nth-child(2){
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-family: 'BungeeInline-Regular';
+}
+main .descr-technology div:nth-child(3), 
+main .descr-customize div:nth-child(3),
+main .descr-support div:nth-child(3){
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: rgba(101,105,112, 0.8);
+	text-align: center;
+}
+
+main .main-screenshots{
+	width: 100%;
+	height: 50rem;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+main .main-screenshots .wrapper{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+main .main-screenshots-top div:first-child, 
+.main-description-top,
+.main-controls-top,
+#play h2,
+main .main-developer div .developer-tit{
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: #464F60;
+	font-weight: bold;
+	font-family: 'BungeeInline-Regular';
+}
+.main-screenshots-top{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: rgba(101,105,112, 0.8);
+	font-size: 2rem;
+	font-family: Arial, sans-serif;
+	margin: 2rem;
+}
+.main-screenshots-top span{
+	text-transform: uppercase;
+}
+.main-screenshots-bottom{
+	margin: 4rem;
+}
+.main-screenshots-bottom>div{
+	margin: 1rem;
+	border: 3px solid #652711;
+	border-radius: 0.5rem	;
+}
+.main-controls .wrapper,
+#play .wrapper{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;	
+	-ms-align-items: center;
+	align-items: center;	
+}
+main #play{
+	width: 100%;
+	height: 35rem;
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#play h3,
+main .main-developer .developer-social{
+	color: rgba(101,105,112, 0.8);
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
+#play button{
+	color: #652711;
+	width: 18rem;
+	height: 8rem;
+	margin: 3rem;
+	border: .3rem solid #652711;
+	border-radius: .5rem;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+#play button:hover{
+	border: .45rem solid #652711;
+	font-size: 2.5rem;
+}
+main .main-controls{
+	width: 100%;
+	height: 40rem;
+	background-color: rgba(76, 77, 79, .25);
+}
+main .main-controls-top{
+	margin-bottom: 5rem;	
+}
+main .main-controls .manual-space{
+	border: 2px solid rgba(76, 77, 79, .25);
+	border-radius: 5px;
+	width: 20rem;	
+	height: 4rem;	
+	font-size: 1rem;	
+	position: relative;
+}
+main .main-controls .manual-space span{
+	position: absolute;
+	top: 2.2rem;
+	left: .5rem;
+	font-size: 1.5rem;
+}
+.main-controls-bottom{
+	width: 100%;	
+	justify-content: space-around;	
+}
+.main-controls-bottom figure p{
+	color: #652711;
+	font-size: 4rem;	
+	margin-bottom: 2rem;	
+	text-align: center;	
+}
+.main-controls-bottom figcaption{
+	  font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(101,105,112, 0.8);
+    text-align: center;
+    font-size: 2rem;	
+}
+
+main #developer .wrapper{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+main .main-developer{
+	width: 100%;
+	height: 70rem;
+	background-color: rgba(76, 77, 79, .25);
+	overflow: hidden;
+}
+main .main-developer .developer-photo{
+	border: .4rem solid #652711;
+	width: 30rem;
+	height: 30rem;
+	border-radius: 50%;
+	background-image: url(../image/photo.jpg);
+	background-position: 50% 50%;
+	margin: 2rem;
+}
+main .main-developer div .developer-descr{
+	text-transform: uppercase;
+	color: #652711;
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin: 1.5rem;
+}
+main .main-developer .developer-social div{
+	margin: 1rem;
+	font-weight: bold;
+	font-size: 2rem;
+}
+main .main-developer .developer-social .flex{
+	height: 5.5rem;
+}
+footer{
+	width: 100%;
+	height: 8rem;
+	background-color: rgba(76, 77, 79, .25);
+	justify-content: center;
+}
+footer .wrapper{
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 1.6rem;
+	color: #464F60;
+	font-family: Arial;
+}
+footer .wrapper div{
+	margin: 0.8rem;
+}
+footer .footer-descr{
+	font-weight: bold;
+}
+.main-developer .wrapper div{
+	margin: 1.5rem;
+	font-size: 1.6rem;
+	color: #464F60;
+	font-family: Arial, sans-serif;
+	overflow: hidden;
+}
+.main-developer .wrapper div a{
+	margin: 1rem;
+	color: #652711;
+	font-size: 3rem;
+}
+.main-developer .wrapper div a:hover{
+	color: #464F60;
+	font-size: 3.5rem;
+}

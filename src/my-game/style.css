@@ -1,0 +1,87 @@
+body{
+                background-color: black;
+                font-family: Araila, sans-serif;
+                text-shadow: 3px 1px 0 #cc0099;
+
+            }
+            #score{
+                border: 2px solid white;
+                box-shadow:  2px 1px 0 #cc0099;
+                width: 220px;
+                -ms-align-items: center;
+                align-items: center;
+                justify-content: space-around;
+            }
+            #count-enemy{
+                font-size: 2rem;
+            }
+            canvas {
+                position: absolute;
+            }
+            #background{
+                z-index: -2;
+            }
+            #enemy{
+                z-index: -1;
+            }
+            #hero{
+                z-index: 0;
+            }
+             #enemypill, #restart, .button-restart{
+                z-index: 10;
+            }
+            .score{
+                font-size: 20px;
+                color: white;
+                padding: 5px;
+            }
+            .display{
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+            }
+            .hidden{
+                display: none;
+            }
+            button.button-restart {
+                  display: -webkit-flex;
+                  display: -moz-flex;
+                  display: -ms-flex;
+                  display: -o-flex;
+                  display: flex;
+                  -ms-align-items: center;
+                  align-items: center;
+                  font-size: 24px;
+                  font-weight: bold;
+                  color: rgba(255,255,255,.6);
+                  text-shadow: 1px 1px rgba(0,0,0,.3);
+                  text-decoration: none;
+                  padding: 15px;
+                  border-radius: 15px;
+                  background: #3d0f2e;
+                  text-transform: uppercase;
+                  box-shadow:
+                   inset 0 0 3px 1px rgba(0,0,0,.8),
+                   inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+                   inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+                   1px 1px 1px rgba(255,255,255,.1),
+                   -2px -2px 5px rgba(0,0,0,.5);
+                  transition: .2s;
+                  outline:none;
+                  position: absolute;
+                  top:500px;
+                  left:600px;
+                }
+                button.button-restart:hover {
+                  color: rgba(255,255,255,.9);
+                  background: #8f246b;
+                  border-radius: 15px;
+                  outline:none;
+                }
+                #gameover, #win{
+                    font-size: 150px;
+                    padding-left: 350px;
+                    padding-top: 100px;
+                }
