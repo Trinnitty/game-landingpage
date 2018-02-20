@@ -1,7 +1,6 @@
 # Game - Space Shooter
 ## Bukzheleva Tatsiana
-### Realization  of landing page =>  https://trinnitty.github.io/game-landingpage/
-### Realization  of game =>  https://trinnitty.github.io/game-spaceshooter/
+### Realization =>  https://trinnitty.github.io/game-landingpage/
 
 ### Game must be based on JavaScript + HTML or Canvas/WebGl/SVG.
 ### Requirements
