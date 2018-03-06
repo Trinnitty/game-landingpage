@@ -79,9 +79,6 @@
 		-ms-align-items: center;
 		align-items: center;
 	}
-	main .main-screenshots{
-		height: 100rem;
-	}
 	main .main-controls {
 		-ms-align-items: center;
 		align-items: center;
@@ -148,9 +145,6 @@
 		justify-content: center;
 		-ms-align-items: center;
 		align-items: center;
-	}
-	main .main-screenshots{
-		height: 90rem;
 	}
 	main .main-controls {
 		-ms-align-items: center;
@@ -250,9 +244,6 @@
 		justify-content: center;
 		-ms-align-items: center;
 		align-items: center;
-	}
-	main .main-screenshots{
-		height: 90rem;
 	}
 	main .main-controls div{
 		display: -webkit-flex;
